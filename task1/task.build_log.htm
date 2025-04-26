@@ -1,0 +1,64 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.25.2.0
+Copyright (C) 2018 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: 1 lenovo, 1, LIC=ATTQ1-CBKMD-QDWKD-8W7PG-VYYSH-JNV8R
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.25.2.0
+Toolchain Path:  D:\Keil\Keil MDK\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 6 (build 750)
+Assembler:       Armasm.exe V5.06 update 6 (build 750)
+Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
+Library Manager: ArmAr.exe V5.06 update 6 (build 750)
+Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+CPU DLL:         SARMCM3.DLL V5.25.2.0
+Dialog DLL:      DCM.DLL V1.17.1.0
+Target DLL:      CMSIS_AGDI.dll V1.29.10.0
+Dialog DLL:      TCM.DLL V1.35.1.0
+ 
+<h2>Project:</h2>
+C:\Users\lenovo\Desktop\嵌入式\tasks\task1\task.uvprojx
+Project File Date:  04/08/2025
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'D:\Keil\Keil MDK\ARM\ARMCC\Bin'
+Rebuild target 'TASK'
+assembling startup_stm32f10x_md.s...
+compiling core_cm3.c...
+compiling main.c...
+User\main.c(85): warning:  #111-D: statement is unreachable
+  	return 0;
+User\main.c: 1 warning, 0 errors
+compiling stm32f10x_it.c...
+compiling stm32f10x_gpio.c...
+compiling system_stm32f10x.c...
+compiling delay.c...
+User\delay.c(8): warning:  #550-D: variable "fac_ms"  was set but never used
+  static uint16_t fac_ms = 0;  // ms延时倍乘数
+User\delay.c: 1 warning, 0 errors
+compiling stm32f10x_rcc.c...
+linking...
+Program Size: Code=1352 RO-data=268 RW-data=24 ZI-data=1632  
+FromELF: creating hex file...
+".\task.axf" - 0 Error(s), 2 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: Keil
+                https://www.keil.com/pack/Keil.STM32F1xx_DFP.2.4.1.pack
+                Keil.STM32F1xx_DFP.2.4.1
+                STMicroelectronics STM32F1 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_TASK
+  D:\Keil\MDK Pack\Keil\Keil.STM32F1xx_DFP.2.4.1\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>
