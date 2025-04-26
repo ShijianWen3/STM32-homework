@@ -1,18 +1,12 @@
----
-typora-copy-images-to: ./pictures
----
 
-![hfutlogo](C:\Users\lenovo\Desktop\markdown\pictures\hfutlogo.png){: style="width: 80px; height: 80px;"}
+
+
 
 ## 《嵌入式系统及应用》综合实验报告
 
 ------
 
-|   学院   | 仪器科学与光电工程学院 |
-| :------: | :--------------------: |
-| **专业** |    **智能感知工程**    |
-| **学号** |     **2023215307**     |
-| **姓名** |       **文世建**       |
+
 
 时间：*23/4/2025*
 
@@ -30,7 +24,7 @@ typora-copy-images-to: ./pictures
 例、维护代码注释，规范技术文档编写习惯；通过差异化任务分工，理解团
 队协作在复杂项目中的重要性。
 
-<img src="C:\Users\lenovo\Desktop\markdown\pictures\hfutlogoz.png" alt="hfutlogoz" style="zoom:25%;" />
+
 
 ------
 
@@ -66,7 +60,7 @@ typora-copy-images-to: ./pictures
 
   
 
-<img src="C:\Users\lenovo\Desktop\markdown\pictures\hfutlogoz.png" alt="hfutlogoz" style="zoom:25%;" />
+
 
 ### 1 实验目的
 i.**掌握STM23F103核心外设的应用** - 通过实际操作”GPIO、ADC、定时器、
